@@ -36,10 +36,10 @@ app.use(bodyParser.json());
 // ✅ Step 3 - Setup CORS
 const corsOptions = {
   origin: [
-    "http://localhost:3900",
+  //  "http://localhost:3900",
   //  "http://localhost:5173", 
   //  "https://ecommercebackend-0xb1.onrender.com", 
-  //  "https://e-commerce-4knu.onrender.com", "http://103.174.102.139:3900", "https://gyanvidya.online"
+    "http://10.0.0.14:3900", //"https://e-commerce-4knu.onrender.com", "https://gyanvidya.online"
     ],
   credentials: true,
   optionSuccessStatus: 200,
